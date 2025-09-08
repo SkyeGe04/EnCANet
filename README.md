@@ -1,4 +1,4 @@
-# EnCANet: Efficient Change Attention Network for Binary Change Detection
+# EnCANet: A Network with Entropy-Guided Saliency and Cross-Spatial Attention for Remote Sensing Change Detection
 
 EnCANet is a concise, production‑ready pipeline for binary change detection on bitemporal remote‑sensing images. It ships a complete workflow: data preparation → training → evaluation/inference → export of predictions.
 
@@ -174,5 +174,6 @@ This repository builds upon common practices in remote‑sensing change detectio
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.
+
 
 
