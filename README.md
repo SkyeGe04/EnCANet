@@ -2,12 +2,6 @@
 
 EnCANet is a concise, production‑ready pipeline for binary change detection on bitemporal remote‑sensing images. It ships a complete workflow: data preparation → training → evaluation/inference → export of predictions.
 
-Key highlights:
-- Fixed modules by design: EnFoCSA (cross‑spatial attention) and ESP (entropy‑based selection) are always enabled
-- Two‑stage fusion (temporal + spatial) implemented via Uni‑FiRE blocks
-- EfficientNetV2‑S encoder with ImageNet normalization
-- Simple, reproducible entry points (`main.py` for train→test, `inference.py` for test‑only)
-
 ---
 
 ## Table of Contents
@@ -174,6 +168,7 @@ This repository builds upon common practices in remote‑sensing change detectio
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.
+
 
 
 
