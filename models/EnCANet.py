@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from .efficientnet import get_encoder
-from .rccd_layers import EnFoCSAModule
+from .EnFoCSA import EnFoCSAModule
 from .fusion_modules import TwoStageUniFiREFusion, UniFiREBlock
 
 class EnCANet(nn.Module):
